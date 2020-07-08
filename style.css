@@ -1,0 +1,167 @@
+/* Customizable page! */
+
+{
+    box-sizing: border-box;
+}
+
+header {
+
+}
+
+footer {
+    background-color: grey;
+    margin: 200px 0 0 0;
+    padding: 20px 0;
+}
+
+h1 {
+    font-family:'Bebas Neue';
+    font-size: 50px;
+    color: pink;
+    padding: 60px 0 20px 20px;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+    color:pink;
+}
+
+main p {
+    text-align: center
+}
+
+p {
+    font-family:'Orkney Light';
+    font-size: 20px;
+    color:rgb(43, 43, 95);
+}
+
+nav {
+    font-family:'Bebas Neue';
+    font-size: 25px;
+    border: 2px solid grey;
+    padding: 10px;
+    margin: 40px 20px 0 0 ;
+    width: 96.6%;
+    float: right;
+    text-align: right;
+    color: pink;
+}
+
+header:after,
+nav:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.box {
+    background-color: black;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.round {
+    border-radius: 10px;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
+label {
+    font-family:'Orkney Light';
+    font-size: 20px;
+    color:rgb(74, 74, 160);
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    align-content: center;
+}
+
+.image-circle {
+    border-radius: 50%;
+}
+a {
+    font-family:'Bebas Neue';
+    font-size: 20px;
+    text-align: center;
+}
+
+a[href^="https://www.imdb.com/name/nm11433626/?ref_=nmmi_mi_nm"] {
+    text-align: center;
+}
+
+li {
+    font-family: 'Orkney Light';
+    font-size: 20px;
+    color:rgb(74, 74, 160);
+    background-color: rgb(249, 236, 252);
+}
+
+.list-left li {
+    list-style-position: inside;
+    text-align:left;
+}
+
+.list-right li {
+    list-style-position: inside;
+    text-align:right;
+}
+
+a[href^="mailto:"]{
+    color: rgb(138, 73, 199)
+}
+
+a[href^="cell:"]{
+    color: rgb(138, 73, 199)
+}
+
+hr {
+    height: 4px;
+    background-color: white;
+    border: 2px solid rgb(235, 188, 195);
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+a:link {
+    color: pink
+}
+/* a: visit {
+    color: red
+} */
+a:hover {
+    color: whitesmoke;              
+}
+a:active {
+    color: yellow;            
+}   
+
+input:link {
+    color: white;
+}
+
+input:visit {
+    color: white
+} 
+input:hover {
+    color: pink
+}
+input:active {
+    color: red
+}
