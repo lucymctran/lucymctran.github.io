@@ -7,6 +7,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: pink;
+}
+
 header nav {
     font-family: 'Bebas Neue Light';
     font-size: 20px;
