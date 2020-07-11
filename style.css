@@ -1,167 +1,179 @@
-/* Customizable page! */
-
-{
-    box-sizing: border-box;
+main {
+    padding: 0px 15px;
+    font-family: 'Orkney Light';
 }
 
-header {
-
+a {
+    text-decoration: none;
 }
 
-footer {
-    background-color: grey;
-    margin: 200px 0 0 0;
-    padding: 20px 0;
+header nav {
+    font-family: 'Bebas Neue Light';
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    margin: 0 20px 0 0;
+}
+
+header nav ul li:last-child a {
+    margin-right: 0;
+}
+
+section {
+    margin-bottom: 100px
 }
 
 h1 {
-    font-family:'Bebas Neue';
-    font-size: 50px;
-    color: pink;
-    padding: 60px 0 20px 20px;
-    margin: 0;
+    font-family: 'Orkney Light';
+    margin: 30px 100px;
 }
 
 h2 {
-    font-family: 'Bebas Neue';
-    font-size: 30px;
-    color:pink;
+    margin: 0 10px;
+    border-bottom: 1px solid rgb(120, 43, 158);
 }
 
-main p {
-    text-align: center
+.group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
 }
 
-p {
-    font-family:'Orkney Light';
-    font-size: 20px;
-    color:rgb(43, 43, 95);
+.item {
+    flex: 1;
+    margin: 10px;
 }
 
-nav {
-    font-family:'Bebas Neue';
-    font-size: 25px;
-    border: 2px solid grey;
-    padding: 10px;
-    margin: 40px 20px 0 0 ;
-    width: 96.6%;
-    float: right;
-    text-align: right;
-    color: pink;
+.item-double {
+    flex: 2;
 }
 
-header:after,
-nav:after {
-    content: "";
-    display: table;
-    clear: both
+img {
+    margin-top: 50px;
+    width: 100%;
 }
 
-.box {
-    background-color: black;
-    text-align: center;
-    font-size: 40px;
-    padding: 20px;
-    margin: 20px;
-}
-
-.round {
-    border-radius: 10px;
+.image-circle {
+    padding: 30px;
+    width: 350px; 
+    height: 350px;
+    border-radius: 50%;
 }
 
 .align-right {
     text-align: right;
 }
 
-.align-left {
-    text-align: left;
+.intro {
+    padding-top: 130px;
 }
 
-.align-center {
-    text-align: center;
+footer {
+    flex: 1;
+    margin: 10px;
+    padding: 0px 60px;
+
 }
 
-label {
-    font-family:'Orkney Light';
-    font-size: 20px;
-    color:rgb(74, 74, 160);
-    text-align: center;
+/* PROJECTS */
+
+.self-flex-start { 
+    align-self: flex-start; 
 }
 
-img {
-    width: 300px;
-    align-content: center;
+.self-flex-end { 
+    align-self: flex-end; 
 }
 
-.image-circle {
-    border-radius: 50%;
-}
-a {
-    font-family:'Bebas Neue';
-    font-size: 20px;
-    text-align: center;
+.self-center { 
+    align-self: center; 
 }
 
-a[href^="https://www.imdb.com/name/nm11433626/?ref_=nmmi_mi_nm"] {
-    text-align: center;
+/* CONTACT PAGE */
+fieldset {
+    padding: 10px 12px;
+    margin: 5px 0 10px 0;
+    border-radius: 6px;
 }
 
-li {
+legend {
+    background-color: plum;
+    color: black;
+    padding: 8px 8px;
+    border-radius: 6px;
+}
+
+.message textarea {
+    padding-top: 30px;
+    margin-left: 5px;
+    width:95%;
+}
+
+form label {
+    display: block;
+}
+
+form input {
+    color: black;
+    margin-bottom: 20px;
+}
+
+form button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1;
     font-family: 'Orkney Light';
-    font-size: 20px;
-    color:rgb(74, 74, 160);
-    background-color: rgb(249, 236, 252);
+    font-size: 14px;
+    background: plum;
+    color: black;
+    margin: 0 8px 10px 0;
 }
 
-.list-left li {
-    list-style-position: inside;
-    text-align:left;
+form button:hover {
+    color: pink;
 }
 
-.list-right li {
-    list-style-position: inside;
-    text-align:right;
-}
 
-a[href^="mailto:"]{
-    color: rgb(138, 73, 199)
-}
-
-a[href^="cell:"]{
-    color: rgb(138, 73, 199)
-}
-
-hr {
-    height: 4px;
-    background-color: white;
-    border: 2px solid rgb(235, 188, 195);
-    margin-top: 80px;
-    margin-bottom: 80px;
-}
-
-a:link {
-    color: pink
-}
-/* a: visit {
-    color: red
+/* section.bg-callout {
+    padding: 60px 0;
+    background-color: grey
 } */
-a:hover {
-    color: whitesmoke;              
-}
-a:active {
-    color: yellow;            
-}   
 
-input:link {
-    color: white;
-}
+/* Groups & Items (Desktop) */
+@media all and (min-width: 800px) {
+    /* header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+    header h1 {
+        margin: 14px 0;
+        padding-top: 0;
+    }
+    
+    header nav {
+        margin-top: 8px;
+    }  */
 
-input:visit {
-    color: white
-} 
-input:hover {
-    color: pink
-}
-input:active {
-    color: red
+    header nav ul li a:hover {
+        color: pink;
+    }
+
+    section {
+        padding: 0 5%;
+    }
+
+    .group {
+        flex-direction: row;
+    }
 }

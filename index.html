@@ -3,96 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>My Webpage 2.0</title>
     <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-    <header>
-    <section id="Home"></section>    
-        <h1>Welcome!</h1>
-        <nav><a href="#Home">Home </a>|<a href="#About-Me">About me</a>|<a href="#Random-Facts">Random Facts</a>|<a href="#Contact">Contact</a></nav>
+    <header id="Home">
+        <h1>Welcome</h1>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About-Me">About me</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <section id="About-Me">  
-    <div class="box round"><h2>Hello World!</h2></div>
     <main>
-    <!--My practice webpage-->
-    <p>My name is Lucy. I am <i>Vietnamese-American</i>. </p>
-    <p>Born in <em>Southern California</em> and have lived here my whole life.</p>
-    <p>Things to know about me. I am <b>passionate</b> in anything I set my <strong>heart</strong> on.</p>
-    <p>Sometimes I do get <small>frustrated</small> and <small>discouraged</small>, maybe even <del>angry</del> at times.</p>
-    <p>But I eventually bring myself back <sup>up</sup> and work even <ins>harder</ins></p>
-    <p>I am now a coder! &lt3 😀</p>
-    <br>
-  
-    <p><a href="https://www.imdb.com/name/nm11433626/?ref_=nmmi_mi_nm" target="_blank"><img src="images/picture-of-me.jpg" class="image-circle"></a></p>
-    </section>
-    <!-- Link to open another HTML page in Browser -->
-    <!-- <p><a href="another-page.html">Open another HTML page in browser</a></p> -->
-    <!-- Linke to open CSS in Browser -->
-    <!-- <p><a href="main.css">Open CSS in Browser</a></p> -->
-    <hr> 
-    <article>  
-    <div>   
-    <p>Please choose below options that describe me:</p>
-    <label for="Description">
-        <form action="/submit answer">
-            <input type="radio" name="description">Awesome!<br>
-            <input type="radio" name="description">Fun!<br>  
-            <input type="radio" name="description">Excited!<br> 
-            <br>
-            <input type="text" placeholder="Tell me yourself">
-            <button type="submit">Submit</button>
-        </form>
-    </label>
-    </div> 
-    <hr>
-    <section id="Random-Facts"></section>
-    <h2>Random Facts</h2>
-    <div>
-    <div class="box round"><h2 class ="align-left">My 2020 Goals</h2></div>
-    <ul class="list-left">
-        <li>PA Profession</li>
-        <li>Web Development</li>
-        <li>Acting</li>
-    </ul>
-    </div>
-    <hr>
-    <div>
-    <div class="box round"><h2 class="align-right"> My Top Three Movies (Kind of...)</h2></div>
-    <ol class="list-right">
-        <li>Back To The Future</li>
-        <li>Harry Potter and The Sorcerer's Stone</li>
-        <li>He's Just Not That Into You</li>
-    </ol>
-    </div>
-    </section>
-    </article>
-    <hr>
-    <hr>
-    <div>
-    <section id="Contact">
-    <h2 class= "align-center"> PLEASE HIRE ME!</h2>
-    <p class = "align-center"><a href="mailto:lucymctran@gmail.com?subject=Inquiry">Email Me!</a></p>
-    <!-- CC LINK -->
-    <!-- <a href="mailto:lucymctran@gmail.com?cc=lucytran32@yahoo.com&subject=Big%20News!">Email</a> -->
-    <!-- BODY TEXT -->
-    <!-- <a href="mailto:lucymctran@gmail.com?subject=Inquiry&body=We're%20interested%20in%20you!">Email</a> -->
-    <p class= "align-center"><a href="cell: 555-555-5555">Call Me!</a></p>
-    </div>
-    </section>
-    <p class="align-right"><a href="#Home"> Back to top</a></p>
+        <section>
+            <div class="group">
+                <div class="item">
+                    <img src="images/rainbow-heart.jpeg" alt="">
+                </div>
+                <div class="item">
+                    <img src="images/totoro-friends.jpeg" alt="">
+                </div>
+                <div class="item">
+                    <img src="images/friends-around-coffee-cup.jpeg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="bg-callout" id="About-Me">
+            <h2>About Me</h2>
+            <div class="group">
+                <div class="item">
+                    <img src="images/picture-of-me.jpg" alt="" class="image-circle">  
+                </div>
+                <div class="item item-double intro" >
+                    <h3>Hi there!</h3>
+                    <p>My name is Lucy. I graduated from The University of California, Irvine in 2016 with a degree in Biological Sciences. 
+                        I am currently exploring opportunities in medicine and tech and would love to merge those two 
+                        passions together. I am currently working as a medical assistant while learning how to code on my free 
+                        time. My philosophy is, in order to live life to the fullest, you need to find ways to keep growing. 
+                        You'll often find me turning pages on a new book, exploring different art mediums, or hashing out problems
+                        on JavaScript.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>What I'm Into At The Moment...</h2>
+            <div class="group">
+                <div class="item">
+                    <h3>Recent Movie Watched</h3>
+                    <p><i>The Sun is Also a Star</i></p>
+                </div>
+                <div class="item">
+                    <h3>Recent Favorite Song</h3>
+                    <p><i>Live with Me By Dirty Elegance</i></p>
+                </div>
+                <div class="item">
+                    <h3>Last Book Read</h3>
+                    <p><i>With Winning in Mind By Lanny Bassham</i></p>
+                </div>
+                <div class="item">
+                    <h3>Current Interest</h3>
+                    <p><i>Hamilton Broadway Musical</i></p>
+                </div>
+            </div>
+        </section>
+        <footer>
+                <p>© Copyright 2020</p>
+                <p class="align-right"><a href="#Home"> Back to top</a></p>
+        </footer>
     </main>
-    <script src="index.js"></script>
-    <!-- <p>Download with Original Filename:<a href="pdf-files/Lucy Tran - Resume 2019-2020.pdf" download>Download: My Resume</a></p>
-    <p>Download wth New Filename:<a href="pdf-files/Lucy Tran - Resume 2019-2020.pdf" download="Lucy-Tran.pdf">Download: My Resume</a></p> -->
-    <footer>
-        <p>© Copyright 2020</p>
-        <p>Credit to me!</p> 
-    </footer>
 </body>
-<link
-  href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-  rel="stylesheet"
-  type="text/css"
-/>
 </html>
