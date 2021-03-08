@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2f0f1bc1.chunk.css",
+    "main.js": "/static/js/main.1d79516b.chunk.js",
+    "main.js.map": "/static/js/main.1d79516b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9b126251.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9b126251.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.622e4f78.chunk.js": "/static/js/2.622e4f78.chunk.js",
+    "static/js/2.622e4f78.chunk.js.map": "/static/js/2.622e4f78.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.54587b1f60f962f4f859393c77774af0.js": "/precache-manifest.54587b1f60f962f4f859393c77774af0.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.2f0f1bc1.chunk.css.map": "/static/css/main.2f0f1bc1.chunk.css.map",
+    "static/js/2.622e4f78.chunk.js.LICENSE.txt": "/static/js/2.622e4f78.chunk.js.LICENSE.txt",
+    "static/media/upside-down-heart.svg": "/static/media/upside-down-heart.afe3c02e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9b126251.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.622e4f78.chunk.js",
+    "static/css/main.2f0f1bc1.chunk.css",
+    "static/js/main.1d79516b.chunk.js"
+  ]
+}
