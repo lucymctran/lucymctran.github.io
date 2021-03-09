@@ -10,7 +10,7 @@ const Expertise = () => {
             data-animate-effect="fadeInLeft"
           >
             <span className="heading-meta">What I do?</span>
-            <h2 className="colorlib-heading">Here are some of my expertise</h2>
+            <h2 className="colorlib-heading">My expertise</h2>
           </div>
         </div>
         <div className="row row-pt-md">

@@ -17,11 +17,13 @@ const About = () => {
                   <p>
                     <strong>Hi! My name is Lucy.</strong> I graduated from The
                     University of California, Irvine in 2016 with a degree in
-                    Biological Sciences. I am currently exploring opportunities
+                    Biological Sciences. Currently, I am exploring opportunities
                     in medicine and tech and have been enjoying the journey so
                     far. My philosophy is, in order to live life to the fullest,
                     you need to find ways to keep growing. That is why I will
-                    never stop learning. It is the greatest joy life can offer.
+                    never stop being curious. Whether it is learning from others
+                    in the industry or self-teaching myself, I will always find
+                    joy in anything that I do.
                   </p>
                 </div>
               </div>
