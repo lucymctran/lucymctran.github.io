@@ -83,7 +83,7 @@ const Work = () => {
             <div
               className="project"
               style={{
-                backgroundImage: "url(./assets/images/coming-soon.jpg)",
+                backgroundImage: "url(./assets/images/to-do.jpg)",
               }}
             >
               <div className="desc">
@@ -118,7 +118,87 @@ const Work = () => {
               </div>
             </div>
           </div>
+          <div
+            className="col-md-6 animate-box"
+            data-animate-effect="fadeInRight"
+          >
+            <div
+              className="project"
+              style={{
+                backgroundImage: "url(./assets/images/flashcard.jpg)",
+              }}
+            >
+              <div className="desc">
+                <div className="con">
+                  <h3>
+                    <a
+                      href="https://to-do-list101.herokuapp.com/"
+                      target="_blank"
+                    >
+                      Flash Cards
+                    </a>
+                  </h3>
+                  <span>Your own study cards</span>
+                  {/* <p className="icon">
+                    <span>
+                      <a href="#">
+                        <i className="icon-share3"></i>
+                      </a>
+                    </span>
+                    <span>
+                      <a href="#">
+                        <i className="icon-eye"></i> 100
+                      </a>
+                    </span>
+                    <span>
+                      <a href="#">
+                        <i className="icon-heart"></i> 49
+                      </a>
+                    </span>
+                  </p> */}
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col-md-6 animate-box"
+            data-animate-effect="fadeInRight"
+          >
+            <div
+              className="project"
+              style={{
+                backgroundImage: "url(./assets/images/coming-soon.jpg)",
+              }}
+            >
+              <div className="desc">
+                <div className="con">
+                  <h3>
+                    <a href="">Coming-Soon</a>
+                  </h3>
+                  <span></span>
+                  {/* <p className="icon">
+                    <span>
+                      <a href="#">
+                        <i className="icon-share3"></i>
+                      </a>
+                    </span>
+                    <span>
+                      <a href="#">
+                        <i className="icon-eye"></i> 100
+                      </a>
+                    </span>
+                    <span>
+                      <a href="#">
+                        <i className="icon-heart"></i> 49
+                      </a>
+                    </span>
+                  </p> */}
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+
         {/* <div className="row">
           <div className="col-md-12 animate-box">
             <p>
