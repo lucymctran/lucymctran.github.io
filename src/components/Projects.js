@@ -50,7 +50,10 @@ const Work = () => {
               <div className="desc">
                 <div className="con">
                   <h3>
-                    <a href="work.html" target="_blank">
+                    <a
+                      href="https://lucymctran.github.io/harry-potter-quiz/"
+                      target="_blank"
+                    >
                       Harry Potter Quiz
                     </a>
                   </h3>
@@ -132,7 +135,7 @@ const Work = () => {
                 <div className="con">
                   <h3>
                     <a
-                      href="https://to-do-list101.herokuapp.com/"
+                      href="https://lucymctran.github.io/flashcards/"
                       target="_blank"
                     >
                       Flash Cards
